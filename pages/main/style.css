@@ -210,3 +210,8 @@ nav ul li a:hover{
 .arrow_elips:active{
     background: #4B9200;
 }
+
+
+.btn2{
+    border-radius: 5px;
+}
