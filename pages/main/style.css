@@ -4,6 +4,32 @@ body{
     margin: auto;
 }
 
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    margin-top:0px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333B41;
+}
+
 header{
     background: #000000;
     color: #FFFFFF;
@@ -151,4 +177,24 @@ nav ul li a:hover{
 
 .btn1:hover{
     background: #E47209;
+}
+
+.backstage-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-container{
+    margin-top:140px;
+    margin-left:219px;
+    margin-right:20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    max-width:1161px;
+}
+
+.backstage-text{
+    margin-left:87px;
 }
