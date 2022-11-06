@@ -198,3 +198,12 @@ nav ul li a:hover{
 .backstage-text{
     margin-left:87px;
 }
+
+.arrow_elips{
+    width: 62px;
+    height: 62px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
