@@ -1,6 +1,7 @@
 body{
     height:100vh;
-    width:100%;
+    width: 1600px;
+    margin: auto;
 }
 
 header{
@@ -12,8 +13,6 @@ header{
     font-family: "Roboto-500";
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.0em;
-    width:100%;
     padding: 14px 30px;
 }
 .logo{
@@ -83,4 +82,44 @@ nav ul li a:hover{
 
 .designed a:hover{
     color: #F9804B;
+}
+
+.online-container{
+    background-image: url('../../assets/images/GiantPanda.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 780px;
+    width:100%;
+}
+.ellipse-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 1275px;
+    height: 478px;
+}
+
+.ellipse{
+    width: 465px;
+    height: 465px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+}
+
+.online-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 500.31px;
+    height: 400px;
+    margin: 74px 0 0 72px;
+}
+
+.yellow{
+    color: #FFEE2E;
 }
