@@ -207,3 +207,6 @@ nav ul li a:hover{
     border: none;
     cursor: pointer;
 }
+.arrow_elips:active{
+    background: #4B9200;
+}
