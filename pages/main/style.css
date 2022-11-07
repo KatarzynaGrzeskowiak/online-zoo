@@ -40,7 +40,7 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    font-family: "Roboto-500";
+    font-family: 'Roboto', sans-serif;;
     font-size: 16px;
     font-weight: 500;
     padding: 14px 30px;
@@ -78,10 +78,14 @@ header{
 
 nav ul li{
     list-style-type: none;
+    text-align: center;
+    padding: 0 29px;
 }
 
 nav ul li a{
     color: #FFFFFF;
+    font-style: normal;
+    line-height: 140%;
     text-decoration: none;
     cursor: pointer;
 }
@@ -92,8 +96,6 @@ nav ul li a:hover{
 
 .nav-list{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 .highlighted{
