@@ -4,6 +4,10 @@ body{
     margin: auto;
 }
 
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
 h2{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -41,6 +45,10 @@ header{
     font-weight: 500;
     padding: 14px 30px;
 }
+.nav-container{
+    display:flex;
+    align-items: center;
+}
 .logo{
     border: 1px solid #FFFFFF;
     border-radius: 2px;
@@ -59,17 +67,17 @@ header{
     position: absolute;
 }
 .logo-text{
+    background-image: url(../../assets/icons/bamboo.png);
+    background-repeat: no-repeat;
+    background-position: bottom 6px left 10px;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 19.0145px;
     line-height: 120%;
     margin:0px;
-}
-nav{
-    display: flex;
+    padding-top: 4px;
 }
 
 nav ul li{
