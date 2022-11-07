@@ -58,10 +58,6 @@ header{
     height: 52px;
     margin-right: auto;
     margin-left: 220px;
-    /*position: relative;
-    z-index:6;*/
-    /*display: flex;
-    justify-content: flex-end;*/
 }
 .logo-icon{
     position: absolute;
@@ -180,7 +176,6 @@ nav ul li a:hover{
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
 
 .btn1:hover{
@@ -215,10 +210,10 @@ nav ul li a:hover{
     border: none;
     cursor: pointer;
 }
+
 .arrow_elips:active{
     background: #4B9200;
 }
-
 
 .btn2{
     border-radius: 5px;
