@@ -130,6 +130,33 @@ nav ul li a:hover{
        rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%,
         #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%,
          rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    margin:auto
+}
+
+.donate-text_heading{
+    color: #FFFFFF;
+    margin: auto;
+    padding-top:40px;
+    padding-bottom:10px;
+    width: 1160px;
+}
+.donate-text_heading-orange{
+    color: #FE9013;
+    padding-top:40px;
+    padding-bottom: 60px;
+    margin: auto;
+    width: 1160px;
+}
+.donate-text_info{
+    color: #FFFFFF;
+    margin: auto;
+    width: 1160px;
+}
+
+.donate1-container{
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
 }
 
 .btn1{
