@@ -39,21 +39,23 @@
                 <h3 class="donate-text_heading-orange">Donation Information</h3>
             </div>
             <div class="donate1-container">
-                <h2>Pick and feed a friend</h2>
-                <h4>We know the animals bring you joy, and in these extraordinary times, we’re glad.</h4>
-                <div class="diet-container">
-                    <div class="amount-number">
-                        <p>4</p>
-                        <p>Panda diet for the day.</p>
+                <h2 class="donate1-text_heading">Pick and feed a friend</h2>
+                <h4 class="donate1-text_info">We know the animals bring you joy, and in these extraordinary times, we’re glad.</h4>
+                <div class="diet_panda-container">
+                    <div class="amount">
+                         <p class="amount-number">4</p>
+                        <p class="amount-text">Panda diet for the day.</p>
                     </div>
                     <div>
-                        <img src="../../assets/icons/x_icon.png" alt="x icon">
+                        <img class="amount-x" src="../../assets/icons/x_icon.png" alt="x icon">
                     </div>
-                    <img src="../../assets/icons/animals-widget.png" alt="panda icon">
-                    <div>
-                        <p>Amount</p>
-                    </div>
+                    <img class="amount-panda" src="../../assets/icons/animals-widget.png" alt="panda icon">
+                </div>
+                <p class="diet-text">Amount</p>
                     <form>
+                        <div class="progress_bar">
+                            <div class="progress_bar-rectangle"></div>
+                        </div>
                         <input type="range" min="1" max="8" step="1" value="5" list="tickmarks">
                         <input type="number" name="number" id="number" class="number" min="1" max="9999" placeholder=" Another amount" required="">
                         <div>
@@ -61,13 +63,12 @@
                             <label for="monthly">Monthly</label>
                             <input type="radio" name="radio" id="once" checked="checked">
                             <label for="once">Once</label>
-                            <div>
+                             <div>
                                 <button class="btn1">Feed a friend now</button>
                             </div>
                             <p>Share with your friends on social networks</p>
                         </div>
                     </form>
-                </div>
             </div>
         </div>
     </main>
