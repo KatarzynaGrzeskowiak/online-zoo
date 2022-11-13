@@ -306,8 +306,41 @@ nav ul li a:hover{
 
 .btn2{
     border-radius: 5px;
+    text-decoration: none;
+    box-shadow:none;
 }
 
 footer{
     background: black;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 72.5%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.logobtn-subscribe-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:44px;
+}
+
+.footer_logo{
+    margin-left: 0px;
+    margin-bottom:68px;
+}
+.social_media-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.social_media{
+    margin-bottom:10px;
+}
+
+.social_media-icon:active{
+    filter: invert(54%) sepia(78%) saturate(4888%) hue-rotate(61deg) brightness(95%) contrast(101%);
 }
