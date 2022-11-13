@@ -245,6 +245,44 @@ nav ul li a:hover{
     width:785px;
     background: #72828E;
 }
+.progress_bar-container{
+    position: absolute;
+    top: 477px;
+    margin-left: 25px;
+    width: 920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.progress_bar-buttons{
+    position: relative;
+    margin: 10px 0 0 0;
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.progress_bar-price{
+    visibility: visible;
+    /*position: absolute;
+    top: 38px;
+    left: -20px;*/
+    width: 72px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.progress_bar-dolar{
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+.progress_bar-amount{
+    width: 60px;
+    height: 36px;
+    font-size: 26px;
+    margin:100px;
+}
 
 .number{
     appearance: none;
