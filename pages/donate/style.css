@@ -245,6 +245,10 @@ nav ul li a:hover{
     width:785px;
     background: #72828E;
 }
+
+.number{
+    appearance: none;
+}
 .btn1{
     width: 298px;
     height: 54px;
