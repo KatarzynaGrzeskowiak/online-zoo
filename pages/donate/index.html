@@ -101,9 +101,11 @@
                     </div>
                 </div>
                 <div>
-                    <p>Subscribe to our news</p>
-                    <input type="email" placeholder="Enter your email" />
-                    <button>Submit</button>
+                    <label class="subscribe-text" for="email">Subscribe to our news</label>
+                    <div>
+                        <input class="subscribe-input" id="email" type="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="">
+                        <input class="send_btn" type="submit" value="Submit">
+                    </div>
                 </div>
             </div>
 
