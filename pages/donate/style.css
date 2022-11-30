@@ -320,9 +320,10 @@ footer{
     flex-direction: column;
     width: 72.5%;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
-.logobtn-subscribe-container{
+.footer_top-container{
     display: flex;
     justify-content: space-between;
     margin-bottom:44px;
@@ -387,4 +388,15 @@ footer{
     filter: invert(54%) sepia(78%) saturate(4888%) hue-rotate(61deg) brightness(95%) contrast(101%);
 }
 
+.footer_bottom-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
 
+
+.footer-designed p{
+    color:#fff;
+    font-weight: 100;
+}
