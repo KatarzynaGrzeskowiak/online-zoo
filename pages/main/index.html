@@ -128,59 +128,50 @@
         </section>
     </main>
     <footer>
-        <a class="logo" href="index.html">
-            <h1 class="logo-text">PetStory <br>online</h1>
-        </a>
-        <div>
-            <button class="btn1 btn2"><a href="../donate/index.html">Donate for volunteers</a></button>
-        </div>
-        <div>
-            <button class="">
-                <a>
-                    <img src="" alt="icon">
-                </a>
-            </button>
-            <a href="https://www.facebook.com/">Facebook</a>
-        </div>
-        <div>
-            <button class="">
-                <a>
-                    <img src="" alt="icon">
-                </a>
-            </button>
-            <a href="https://www.twitter.com/">Twitter</a>
-        </div>
-        <div>
-            <button class="">
-                <a>
-                    <img src="" alt="icon">
-                </a>
-            </button>
-            <a href="https://www.instagram.com/">Instagram</a>
-        </div>
-         <div>
-            <button class="">
-                <a>
-                    <img src="" alt="icon">
-                </a>
-            </button>
-            <a href="https://www.youtube.com/">Youtube</a>
-        </div>
+        <div class="footer-container">
+            <div class="logobtn-subscribe-container">
+                <div class="logobtn-container">
+                    <a class="logo footer_logo" href="../main/index.html">
+                        <h1 class="logo-text">PetStory <br>online</h1>
+                    </a>
+                    <div class="subscribe-container">
+                        <button class="btn1 btn2"><a class="btn1 btn2" href="../donate/index.html">Donate for volunteers</a></button>
+                    </div>
+                </div>
+                <div>
+                    <label class="subscribe-text" for="email">Subscribe to our news</label>
+                    <div>
+                        <input class="subscribe-input" id="email" type="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="">
+                        <input class="send_btn" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
 
-        <div>
-            <p>Subscribe to our news</p>
-            <input type="email" placeholder="Enter your email" />
-            <button>Submit</button>
+            <div class="social_media-container">
+                <a class="social_media" href="https://www.facebook.com/">
+                    <img class="social_media-icon" src="../../assets/icons/facebook.svg" alt=" facebook icon">
+                </a>
+                <a class="social_media" href="https://www.twitter.com/">
+                    <img class="social_media-icon" src="../../assets/icons/twitter.svg" alt="twitter icon">
+                </a>
+                <a class="social_media" href="https://www.instagram.com/">
+                    <img class="social_media-icon" src="../../assets/icons/instagram.svg" alt="instagram icon">
+                </a>
+                <a class="social_media" href="https://www.youtube.com/">
+                    <img class="social_media-icon" src="../../assets/icons/youtube.svg" alt="youtube icon">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../main/index.html">About</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#zoos">Zoos</a></li>
+                    <li><a href="../donate/index.html">Donate</a></li>
+                    <li><a href="#footer">Contact </a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav-list">
-                <li><a class="highlighted" href="index.html">About</a></li>
-                <li><a href="#map">Map</a></li>
-                <li><a href="#zoos">Zoos</a></li>
-                <li><a href="../donate/index.html">Donate</a></li>
-                <li><a href="#footer">Contact </a></li>
-            </ul>
-        </nav>
     </footer>
 </body>
 </html>
